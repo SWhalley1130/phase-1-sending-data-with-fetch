@@ -60,7 +60,7 @@ function initUsers()
 
 
 // /////////////////////////////////
-// // This part was for funsies
+// // This part was for funsies- Dogs!
 // ////////////////////////////////
 
     initDogs();
@@ -73,14 +73,20 @@ function initUsers()
             dogs.forEach(element => 
             {
                 const li = document.createElement('li');
-                li.textContent=`${element.dogName} is a ${element.dogBreed}.`
-                document.querySelector('ul').appendChild(li);   
+                li.textContent=`${element.dogName} is a ${element.dogBreed}. Here is their picture!`;
+                const br=document.createElement("br")
+                const img =document.createElement('img');
+                li.append(br, img);
+                document.querySelector('ul').appendChild(li);  
+                img.addEventListener('load', ()=>
+                img.height=60,
+                img.src=element.dogPicture) 
             });
         })
     }
 
     const dogSubmitButton=document.querySelector("#dogForm");
-    dogSubmitButton.addEventListener('submit', handleDogSubmit);
+    dogSubmitButton.addEventListener('submit',handleDogSubmit);
 
     function handleDogSubmit(e)
     {
@@ -88,7 +94,8 @@ function initUsers()
         const formData=
         {
             dogName:document.querySelector("#dogName").value,
-            dogBreed:document.querySelector("#dogBreed").value
+            dogBreed:document.querySelector("#dogBreed").value,
+            dogPicture: document.querySelector('#dogPicture').value
         }
 
         return fetch('http://localhost:3000/dogs', 
@@ -105,8 +112,15 @@ function initUsers()
         .then(data=>
             {
                 const li = document.createElement('li');
-                li.textContent=`${data.dogName} is a ${data.dogBreed}.`
+                li.textContent=`${data.dogName} is a ${data.dogBreed}. Here is their picture!`;
+                const br=document.createElement("br");
+                const img=document.createElement("img");
+                li.append(br, img);
                 document.querySelector('ul').appendChild(li); 
+                img.addEventListener('load', ()=>
+                img.height=60,
+                img.src=data.dogPicture);
+
             })
     }
 

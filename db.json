@@ -3,52 +3,32 @@
     {
       "dogName": "Luca",
       "dogBreed": "German Shepherd",
+      "dogPicture": "https://i.pinimg.com/564x/7f/26/e7/7f26e71b2c84e6b16d4f6d3fd8a58bca.jpg",
       "id": 1
     },
     {
       "dogName": "Lola",
       "dogBreed": "Giant Schnauzer",
+      "dogPicture": "https://i.pinimg.com/564x/7f/26/e7/7f26e71b2c84e6b16d4f6d3fd8a58bca.jpg",
       "id": 2
     },
     {
       "dogName": "Bubba",
       "dogBreed": "Boxer",
+      "dogPicture": "https://i.pinimg.com/564x/7f/26/e7/7f26e71b2c84e6b16d4f6d3fd8a58bca.jpg",
       "id": 3
     },
     {
       "dogName": "Scarlet",
       "dogBreed": "Boxer",
+      "dogPicture": "https://i.pinimg.com/564x/7f/26/e7/7f26e71b2c84e6b16d4f6d3fd8a58bca.jpg",
       "id": 4
     },
     {
       "dogName": "Lilly",
       "dogBreed": "Lab",
+      "dogPicture": "https://i.pinimg.com/564x/7f/26/e7/7f26e71b2c84e6b16d4f6d3fd8a58bca.jpg",
       "id": 5
-    },
-    {
-      "dogName": "Alfie",
-      "dogBreed": "Golden",
-      "id": 6
-    },
-    {
-      "dogName": "Rover",
-      "dogBreed": "German Shepard",
-      "id": 7
-    },
-    {
-      "dogName": "Luna",
-      "dogBreed": "Mix",
-      "id": 8
-    },
-    {
-      "dogName": "Koda",
-      "dogBreed": "Mix",
-      "id": 9
-    },
-    {
-      "dogName": "Test",
-      "dogBreed": "test",
-      "id": 10
     }
   ],
   "cats": [
