@@ -29,6 +29,26 @@
       "dogName": "Alfie",
       "dogBreed": "Golden",
       "id": 6
+    },
+    {
+      "dogName": "Rover",
+      "dogBreed": "German Shepard",
+      "id": 7
+    },
+    {
+      "dogName": "Luna",
+      "dogBreed": "Mix",
+      "id": 8
+    },
+    {
+      "dogName": "Koda",
+      "dogBreed": "Mix",
+      "id": 9
+    },
+    {
+      "dogName": "Test",
+      "dogBreed": "test",
+      "id": 10
     }
   ],
   "cats": [
@@ -73,6 +93,11 @@
       "name": "example5",
       "email": "example5@aol.com",
       "id": 6
+    },
+    {
+      "name": "Example6",
+      "email": "example@aol.com",
+      "id": 7
     }
   ],
   "robots": [
